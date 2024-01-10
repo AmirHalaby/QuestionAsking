@@ -1,0 +1,27 @@
+
+End points: 
+
+Question 1: 
+	recive two parameters 
+	1 . title type is string
+	2. current page type is int
+	Verb type Get
+	http://localhost:5213/Api/Question
+
+Question 2: 
+	recive one parameter 
+	the question Id that we looking for
+	Verb type Get
+	http://localhost:5213/Api/Question/{id}
+
+Question 3: 
+	recive parameter:
+	{
+  title type string
+  List of answer type is List<string>
+  Verb type	Post
+  	http://localhost:5213/Api/Question/
+
+Question 4: 
+	Get Votes
+	http://localhost:5213/Api/Answer/
